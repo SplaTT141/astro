@@ -15,6 +15,7 @@ https://splatt141.github.io/astro/
 - bash commands:
   - `touch index.html` (sukuria faila)
   - `touch failas1.txt failas2.txt` (sukuria failus)
+  - `rm failos.pav` (pasalina faila)
   - `ls -al` (stulpeliu atvaizduoja direktorijoje esanti turini)
   - `mkdir img` (sukuria folderi/direktorija)
   - `mkdir folder1 folder2` (sukuria folderius/direktorijas)
