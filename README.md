@@ -8,4 +8,6 @@ https://splatt141.github.io/astro/
 
 - Github pages
 - no responsive design
-- inline CSS
+- CSS file
+- display: flex
+- hover state
