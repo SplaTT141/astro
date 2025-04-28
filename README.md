@@ -10,6 +10,7 @@ https://splatt141.github.io/astro/
 - no responsive design
 - CSS file
 - display: flex
+- FontAwesome
 - hover state
 - bash commands:
   - `touch index.html` (sukuria faila)
@@ -18,7 +19,7 @@ https://splatt141.github.io/astro/
   - `mkdir img` (sukuria folderi/direktorija)
   - `mkdir folder1 folder2` (sukuria folderius/direktorijas)
 - git commands:
-  - `git init`
-  - `git add .`
-  - `git commint -m "Message text"`
-  - `git push`
+  - `git init` (git repozitorijos iniciavimas)
+  - `git add .` (visus redaguotus failus perkelia i "stage", t.y. paruosia commit'inimui)
+  - `git commint -m "Message text"` (su'commit'ina)
+  - `git push` (issiuncia commit'a i remove repozitorija (Github))
