@@ -11,3 +11,10 @@ https://splatt141.github.io/astro/
 - CSS file
 - display: flex
 - hover state
+- bash commands:
+  - touch index.html
+- git commands:
+  - git init
+  - git add .
+  - git commint -m "Message text" .
+  - git push
