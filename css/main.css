@@ -46,7 +46,7 @@ main h1 {
     font-weight: normal;
 }
 
-.lost {
+div > p:first-of-type{
     font-size: 50px;
     font-weight: bold;
     margin-top: -10px;
@@ -62,23 +62,29 @@ main div img {
 }
 
 
-.info {
+div > p:last-of-type{
     color:#99999B;
     width: 320px;
     margin-bottom: 60px;
 }
 
-main div a {
+main a {
+    float: left;
     text-decoration: none;
-    color: black;
-    border-style: solid;  
-    border-width: 2px; 
+    border: 2px solid;
     border-radius: 30px; 
     background-color: #664499;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding: 45px;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 15px;
+}
+
+main a:last-child {
+    color: #664499;
+    background-color: white;
 }
 
 footer {
