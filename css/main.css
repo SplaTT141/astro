@@ -9,7 +9,6 @@ header {
     justify-content: space-between;
     margin-bottom: 70px;
     margin-top: 25px;
-    margin-right: 55px;
     width: 800px;
     margin-left: calc(50% - 400px);
 }
@@ -26,7 +25,13 @@ header nav a:first-child {
     margin: 0;
 }
 
+header nav a:last-child {
+    margin-right: 55px;
+}
+
 main { 
+    display: flex;
+    align-items: center;
     width: 800px;
     margin-left: calc(50% - 400px);
 }
@@ -68,7 +73,7 @@ main div img {
 div > p:last-of-type{
     color:#99999B;
     width: 320px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 main a {
@@ -83,11 +88,23 @@ main a {
     text-transform: uppercase;
     color: white;
     margin-right: 15px;
+    margin-top: 50px;
 }
 
 main a:last-child {
     color: #664499;
     background-color: white;
+}
+
+
+main a:hover {
+    color: #664499;
+    background-color: white;
+}
+
+main a:last-child:hover {
+    background-color: #664499;
+    color: white;
 }
 
 footer {
