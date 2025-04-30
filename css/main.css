@@ -17,7 +17,7 @@ header {
     margin-top: 25px;
 }
 
-header .main-nav a {
+.main-nav a {
     color: #666666;
     text-decoration: none;
     font-size: 12px;
@@ -25,11 +25,11 @@ header .main-nav a {
     margin-left: 10px;
 }
 
-header .main-nav a:first-child {
+.main-nav a:first-child {
     margin: 0;
 }
 
-header .main-nav a:last-child {
+.main-nav a:last-child {
     margin-right: 55px;
 }
 
@@ -113,8 +113,4 @@ footer {
     font-size: 12px;
     font-weight: bold;
     margin-right: 55px;
-}
-
-.socials img{
-    width: 20px;
 }
