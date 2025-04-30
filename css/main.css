@@ -1,6 +1,6 @@
 body {
-    width: 800px;
-    margin-left: calc(50% - 400px);
+    display: inline-block;
+    width: 100%;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,6 +10,8 @@ header {
     margin-bottom: 70px;
     margin-top: 25px;
     margin-right: 55px;
+    width: 800px;
+    margin-left: calc(50% - 400px);
 }
 
 header nav a {
@@ -24,8 +26,9 @@ header nav a:first-child {
     margin: 0;
 }
 
-.main {
-    display:inline-block;
+main { 
+    width: 800px;
+    margin-left: calc(50% - 400px);
 }
 
 main > div {
@@ -92,6 +95,8 @@ footer {
     justify-content: space-between;
     margin-top: 35px;
     align-items: center;
+    width: 800px;
+    margin-left: calc(50% - 400px);
 }
 
 footer p {
