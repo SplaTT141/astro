@@ -4,16 +4,20 @@ body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
+.container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 70px;
-    margin-top: 25px;
     width: 800px;
     margin-left: calc(50% - 400px);
 }
 
-header nav a {
+header {
+    margin-bottom: 70px;
+    margin-top: 25px;
+}
+
+header .main-nav a {
     color: #666666;
     text-decoration: none;
     font-size: 12px;
@@ -21,31 +25,23 @@ header nav a {
     margin-left: 10px;
 }
 
-header nav a:first-child {
+header .main-nav a:first-child {
     margin: 0;
 }
 
-header nav a:last-child {
+header .main-nav a:last-child {
     margin-right: 55px;
 }
 
-main { 
-    display: flex;
-    align-items: center;
-    width: 800px;
-    margin-left: calc(50% - 400px);
-}
-
-main > div {
+.left-column {
     width: 45%;
-    float: left;
 }
 
 main img {
     width: 55%;
 }
 
-main h1 {
+.main-title {
     margin: 0;
     margin-top: 20px;
     font-size: 55px;
@@ -54,7 +50,7 @@ main h1 {
     font-weight: normal;
 }
 
-div > p:first-of-type{
+.sub-title{
     font-size: 50px;
     font-weight: bold;
     margin-top: -10px;
@@ -62,7 +58,7 @@ div > p:first-of-type{
 }
 
 
-main div img {
+.left-column img {
     width: 105px;
     margin-top: 0;
     margin-left: 5px;
@@ -70,13 +66,13 @@ main div img {
 }
 
 
-div > p:last-of-type{
+.description {
     color:#99999B;
     width: 320px;
     margin-bottom: 20px;
 }
 
-main a {
+.btn {
     float: left;
     text-decoration: none;
     border: 2px solid;
@@ -88,35 +84,30 @@ main a {
     text-transform: uppercase;
     color: white;
     margin-right: 15px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
-main a:last-child {
+.btn:last-child {
     color: #664499;
     background-color: white;
 }
 
 
-main a:hover {
+.btn:hover {
     color: #664499;
     background-color: white;
 }
 
-main a:last-child:hover {
+.btn:last-child:hover {
     background-color: #664499;
     color: white;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
     margin-top: 35px;
-    align-items: center;
-    width: 800px;
-    margin-left: calc(50% - 400px);
 }
 
-footer p {
+.socials {
     color: #666666;
     text-decoration: none;
     font-size: 12px;
@@ -124,6 +115,6 @@ footer p {
     margin-right: 55px;
 }
 
-footer div a img{
+.socials img{
     width: 20px;
 }
