@@ -50,21 +50,20 @@ main img {
     font-weight: normal;
 }
 
-.sub-title{
+.sub-title {
     font-size: 50px;
     font-weight: bold;
     margin-top: -10px;
     margin-bottom: 13px;
 }
 
-
-.left-column img {
+.sub-title::after{
+    content: '';
+    display: block;
     width: 105px;
-    margin-top: 0;
-    margin-left: 5px;
-    margin-bottom: 15px;
+    height: 4px;
+    background-color: #554485;
 }
-
 
 .description {
     color:#99999B;
@@ -108,9 +107,13 @@ footer {
     margin-top: 35px;
 }
 
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
 .socials > .icon {
     color: #666666;
     text-decoration: none;
-    font-size: 12px;
-    margin-right: 15px;
+    font-size: 17px;
 }
