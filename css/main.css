@@ -104,10 +104,11 @@ main img {
 }
 
 footer {
+    margin-bottom: 40px;
     margin-top: 35px;
 }
 
-.socials {
+.icon{
     color: #666666;
     text-decoration: none;
     font-size: 12px;
