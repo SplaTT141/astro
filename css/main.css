@@ -108,10 +108,9 @@ footer {
     margin-top: 35px;
 }
 
-.icon{
+.socials > .icon {
     color: #666666;
     text-decoration: none;
     font-size: 12px;
-    font-weight: bold;
-    margin-right: 55px;
+    margin-right: 15px;
 }
